@@ -1,3 +1,5 @@
+// insertion sort using ONLY pointers:
+
 #include <stdio.h>
 #include <stdlib.h>
 
