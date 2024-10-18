@@ -43,5 +43,11 @@ int main(){
         printf("%.2f\t", arr[*i]);
     }
 
+    // don't want no memory leaks here:
+    free(arr);
+    free(n);
+    free(i);
+    free(j);
+    
     return 0;
 }
