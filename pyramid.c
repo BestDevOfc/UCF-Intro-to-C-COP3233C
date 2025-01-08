@@ -7,6 +7,8 @@
 int main(){
     int rows = 4;
     char symbol = '*';
+    
+    // keeps track of the number of symols to print, every row just adds 2 to this
     int num_print = 1;
     
     for( int i = 0; i < rows; i++ ){
