@@ -12,6 +12,7 @@ int main(){
     char ch = ' ';
 
     // in -> data is going INto our program
+    // and out is LEAVING out scope LMAO this makes sense
     // we do !feof but we could just do while(1) and inside do if(ch == EOF) break;
     while( !feof( ifstream ) ){
         ch = fgetc( ifstream );
